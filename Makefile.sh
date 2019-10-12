@@ -2,7 +2,7 @@
 # print out each command being executed 
 all: test.x
 
-test.x: test.o
+test.x: base.o classA.o classB.o test.o 
 	g++ base.o classA.o classB.o test.o -o test.x
 
 test.o: test.cpp
