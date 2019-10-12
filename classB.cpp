@@ -22,5 +22,5 @@ void classB::show()
 classB::~classB()
 {
 	delete[]ptr;
-	cout << "~DerivedB() called" << endl;
+	cout << "~classB() called" << endl;
 }
