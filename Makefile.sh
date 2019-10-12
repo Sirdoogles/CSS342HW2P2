@@ -3,10 +3,10 @@
 all: test.x
 
 classA.o: classA.cpp classA.h base.h
-	g++ -Wall -c classA.cpp -o test.o
+	g++ -Wall -c classA.cpp -o classA.o
 
 classB.o: classB.cpp classB.h base.h
-	g++ -Wall -c classB.cpp -o test.o
+	g++ -Wall -c classB.cpp -o classB.o
 
 test.o: test.cpp
 	g++ -Wall -c test.cpp -o test.o
