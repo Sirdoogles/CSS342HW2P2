@@ -6,5 +6,5 @@ class Base
 public:
 	virtual void print();
 	virtual void show();
-	virtual ~Base();
+	virtual ~Base(); // Base destructor, virtual
 };
